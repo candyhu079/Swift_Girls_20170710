@@ -20,7 +20,6 @@ class JSQViewController: JSQMessagesViewController {
     
     // 用來儲存對話訊息
     var messages = [JSQMessage]()
-    //    let defaults = UserDefaults.standard
     // 自己及對方的大頭貼
     var incomingBubble: JSQMessagesBubbleImage!
     var outgoingBubble: JSQMessagesBubbleImage!
